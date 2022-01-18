@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#discount-message {
+  background-color: #7a03d7;
+  margin: 0;
+  padding: 0.4rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+#marketing {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#logo {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  color: #4f0c84;
+  font-size: 5rem;
+  font-weight: 500;
+}
+#logo-wrapper {
+  display: inline-block;
+  margin-top: 20rem;
+  margin-left: 20rem;
+}
+#login-form {
+  float: right;
+  margin-top: 14rem;
+  margin-right: 20rem;
+}
+label {
+  color: #7a03d7;
+  font-weight: 500;
+}
+input {
+  border: none;
+  background-color: #f3f3f3;
+  box-shadow: 0 0 5px 0 gray;
+  border-radius: 0.8rem;
+  height: 2.4rem;
+  width: 16rem;
+  margin-top: 0.4rem;
+}
+input:focus {
+  outline-color: #7a03d7;
+}
+#input-username {
+  margin-bottom: 0.9rem;
+}
+a {
+  display: block;
+  color: #540790;
+  padding-top: 1rem;
+}
+#login-btn {
+  margin-top: 3rem;
+  width: 16rem;
+  height: 2.4rem;
+  border: none;
+  border-radius: 0.8rem;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(127, 0, 226, 1) 0%,
+    rgba(69, 43, 90, 1) 100%
+  );
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 0 5px 0 gray;
+}
+#or {
+  text-align: center;
+  color: gray;
+  font-weight: bold;
+}
+#create-account {
+  background-color: transparent;
+  width: 16rem;
+  height: 2.4rem;
+  border: 3px solid #452b5a;
+  border-radius: 0.8rem;
+  color: #452b5a;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
